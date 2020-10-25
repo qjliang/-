@@ -6535,7 +6535,7 @@ ts-loader@^8.0.5:
 
 ts-node@^9.0.0:
   version "9.0.0"
-  resolved "https://registry.npm.taobao.org/ts-node/download/ts-node-9.0.0.tgz?cache=0&sync_timestamp=1598040497631&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fts-node%2Fdownload%2Fts-node-9.0.0.tgz#e7699d2a110cc8c0d3b831715e417688683460b3"
+  resolved "https://registry.npm.taobao.org/ts-node/download/ts-node-9.0.0.tgz?cache=0&sync_timestamp=1598040294538&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fts-node%2Fdownload%2Fts-node-9.0.0.tgz#e7699d2a110cc8c0d3b831715e417688683460b3"
   integrity sha1-52mdKhEMyMDTuDFxXkF2iGg0YLM=
   dependencies:
     arg "^4.1.0"
@@ -6596,7 +6596,7 @@ typedarray@^0.0.6:
 
 typescript@^4.0.3:
   version "4.0.3"
-  resolved "https://registry.npm.taobao.org/typescript/download/typescript-4.0.3.tgz?cache=0&sync_timestamp=1602744629400&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ftypescript%2Fdownload%2Ftypescript-4.0.3.tgz#153bbd468ef07725c1df9c77e8b453f8d36abba5"
+  resolved "https://registry.npm.taobao.org/typescript/download/typescript-4.0.3.tgz?cache=0&sync_timestamp=1603608635910&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ftypescript%2Fdownload%2Ftypescript-4.0.3.tgz#153bbd468ef07725c1df9c77e8b453f8d36abba5"
   integrity sha1-FTu9Ro7wdyXB35x36LRT+NNqu6U=
 
 typical@^5.0.0, typical@^5.2.0:

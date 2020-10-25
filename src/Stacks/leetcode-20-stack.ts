@@ -30,10 +30,10 @@ const isValid = (s: string) => {
       if (c === ')' && topChar !== '(') { 
         return false;
       }
-      if (c === ']' && topChar !== ']') { 
+      if (c === ']' && topChar !== '[') { 
         return false;
       }
-      if (c === '}' && topChar !== '}') { 
+      if (c === '}' && topChar !== '{') { 
         return false;
       }
     }
