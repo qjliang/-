@@ -23,6 +23,9 @@ export class InitArray<E> {
   getFirst() {
     return this.data[0];
   }
+  getCapacity() {
+    return this.data.length;
+  }
   getLast() {
     return this.data[this.size - 1];
   }

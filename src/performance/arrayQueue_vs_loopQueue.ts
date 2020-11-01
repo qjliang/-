@@ -1,7 +1,6 @@
 import { ArrayQueue } from "..//Array-Queue/ArrayQueue";
 import { LoopQueue } from "../Loop-Queue/LoopQueue";
 interface IQueue<E> {
-
   getSize: () => number
   isEmpty: () => boolean
   enqueue: (e: E) => void
@@ -21,7 +20,7 @@ const testPerformance = (queue: IQueue<any>, count: number, type: 'ArrayQueue' |
   const time = `统计${type}(队列)，count = ${count}次，所需要时间为: ${endTime} s`
   return time
 }
-const testCount = 1000000
+const testCount = 100000
 const ArrayQueueTest = testPerformance(new ArrayQueue<number>(), testCount, 'ArrayQueue')
 const LoopQueueTest = testPerformance(new LoopQueue<number>(), testCount, 'LoopQueue')
 console.log(ArrayQueueTest)

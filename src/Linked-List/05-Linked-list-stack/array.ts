@@ -1,7 +1,8 @@
-export class InitArray<E> {
+
+ export class InitArray<E> {
   private data: E[] = new Array<E>();
   private size: number = 0;
-  constructor(capacity: number = 1) {
+  constructor(capacity: number = 0) {
     this.data = new Array<E>(capacity);
   }
   private add(index: number, value: E) {
@@ -17,14 +18,14 @@ export class InitArray<E> {
       this.data.length = this.size * 2;
     }
   }
-  getSize() {
-    return this.size;
+  getSize() { 
+     return this.size;
+   }
+  getFirst() { 
+    return this.data[0]
   }
-  getFirst() {
-    return this.data[0];
-  }
-  getLast() {
-    return this.data[this.size - 1];
+  getLast() { 
+    return this.data[this.size - 1]
   }
   addLast(value: E) {
     this.add(this.size, value);
@@ -42,12 +43,12 @@ export class InitArray<E> {
     if (index < 0 || index >= this.size) {
       throw new Error("index is not exist");
     }
-    const curr = this.data[index];
+    const curr = this.data[index]
     for (let i = index; i < this.size; i++) {
       this.data[i] = this.data[i + 1];
     }
     this.size--;
-    this.shrink();
+    this.shrink()
     return curr;
   }
   changeItem(index: number, e: E) {
@@ -70,9 +71,9 @@ export class InitArray<E> {
     }
     return -1;
   }
-  isEmpty() {
-    return this.size === 0;
-  }
+   isEmpty() {
+     return this.size === 0
+   }
   contain(e: E) {
     for (let i = 0; i < this.size; i++) {
       if (this.data[i] == e) {

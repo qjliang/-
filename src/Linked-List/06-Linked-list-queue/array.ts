@@ -1,7 +1,7 @@
 export class InitArray<E> {
   private data: E[] = new Array<E>();
   private size: number = 0;
-  constructor(capacity: number = 1) {
+  constructor(capacity: number = 0) {
     this.data = new Array<E>(capacity);
   }
   private add(index: number, value: E) {
@@ -22,6 +22,9 @@ export class InitArray<E> {
   }
   getFirst() {
     return this.data[0];
+  }
+  getCapacity() {
+    return this.data.length;
   }
   getLast() {
     return this.data[this.size - 1];
